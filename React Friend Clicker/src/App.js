@@ -4,6 +4,8 @@ import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
 import Friends from "./friends.json";
 import "./App.css";
+import "./style.css";
+
 import { Line } from 'rc-progress';
 import Nav from "./components/Nav";
 
@@ -14,8 +16,12 @@ let message = "";
 
 
 
+
+
 class App extends Component {
-  // <Nav />
+  
+
+
   // constructor() {
   //   super(); //Have to call super, because whenever we call our class our constructor gets called. Super calls the react.components functions so we can run the constructor.
   //   this.state = {
@@ -81,6 +87,10 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each Friend object
   render() {
     return (
+      <div>
+      <Nav />
+   
+
       <Wrapper>
         <div className="friend">
     				<div className="friendText">
@@ -105,6 +115,7 @@ class App extends Component {
             </div>
           </div>
         <div className="row">  
+          <Wrapper>
         {this.state.Friends.map(Friend => (
           <FriendCard
           setClicked={this.setClicked}
@@ -117,8 +128,10 @@ class App extends Component {
             className="col-sm-1"
             />
         ))}
+        </Wrapper>
         </div>
       </Wrapper>
+      </div>
     );
   }
 };
