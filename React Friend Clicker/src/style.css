@@ -1,0 +1,209 @@
+.navbar-brand#logo {
+ 
+}
+
+.textBox {
+    background-color: floralwhite;
+    box-shadow: inset 5px 2px 2px -5px #4aaaa5;
+    padding: 15px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.shadows {
+  -webkit-box-shadow: inset 0px 11px 15px -10px #000, inset 0px -11px 15px -10px #000;
+          box-shadow: inset 0px 11px 15px -10px #000, inset 0px -11px 15px -10px #000;
+}
+
+.borders {
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.header-box {
+  background-color: #ddd;
+}
+
+header .info_head {
+  padding: 15px 0;
+}
+
+header .section_title {
+  background-color: #343434;
+  padding: 30px 0px;
+}
+
+header .info_content {
+  padding: 30px 0;
+}
+
+section.info_content {
+  background-color: #232323 !important;
+}
+
+body {
+  /* background-color: #232323; */
+  /* background-image: url("../assets/images/logo.png"); */
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #999 !important;
+  padding: 0px;
+  background-color: darkcyan !important;
+  font-weight: normal;
+}
+
+body body.box {
+  background-color: white !important;
+}
+
+/* General Settings */
+.col-12 {
+  margin-top: 75px;
+}
+
+.row {
+  padding-top: 0px !important;
+}
+
+/* overwrite boostrap */
+.img-thumbnail {
+
+  background-color: black !important;
+}
+
+/* new class */
+.nav {
+  width: 100%;
+  background-color: #ddd;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav a {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a hover {
+  color: white;
+}
+
+.nav-bar {
+  height: 65px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar > li > a {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  padding: 26px 20px;
+}
+
+li active {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+.jumbotron {
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+/* Changes the way links look on nav menu */
+/*creating an active class to show what page we are on */
+.active {
+  color: skyblue;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: whitesmoke;
+}
+
+/*Portfolio */
+.col-lg-6 {
+  position: relative;
+  width: 200px;
+  margin: 20px 0 20px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  border-bottom: 3px;
+}
+
+.col-lg-6 img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
+}
+
+h1 {
+  line-height: 20px;
+  color: skyblue;
+  background-color: #343434;
+  text-align: center;
+  padding: 14px;
+  margin-left: 1px;
+  bottom: 10px;
+  border: 1px solid white;
+  font-size: 20px;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+}
+
+.navbar-brand {
+
+}
+
+/* Contact Form */
+label {
+  color: white;
+}
+
+/* Gives inputs style, hepls select elements and textbox */
+/*footer*/
+/*h1 frames */
+h1 {
+  color: skyblue !important;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#loadout {
+  background-color: red;
+}
+    
+/*# sourceMappingURL=style.css.map */
